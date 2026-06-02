@@ -1,0 +1,53 @@
+{
+    "name": "Custom Dark Mode",
+    "dataColors": ["#118DFF", "#12239E", "#E66C37", "#6B007B", "#E044A7", "#744EC2", "#D9B300", "#D64550"],
+    "background": "#111111",
+    "foreground": "#FFFFFF",
+    "tableAccent": "#118DFF",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#1F1F1F" } },
+                        "transparency": 0
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "type": "Default",
+                        "titleFontColor": { "solid": { "color": "#FFFFFF" } },
+                        "valueFontColor": { "solid": { "color": "#FFFFFF" } },
+                        "background": { "solid": { "color": "#333333" } }
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": { "solid": { "color": "#111111" } }
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#111111" } },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "labels": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#FFFFFF" } }
+                    }
+                ]
+            }
+        }
+    }
+}
